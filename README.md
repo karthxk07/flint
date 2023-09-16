@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# flint. 🔥
+### A real time chat app. 📥
 
-## Getting Started
 
-First, run the development server:
+### Features. ⚙️
+*   Real time chatting with friends.👦
+*   Create quick chat rooms. 🚻
+*   User Authorization. 🔐
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites 🔖
+To run the app locally you would need the following to be installed :-
+  *  Nodejs (version >= 16.0.0)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Steps to reproduce ✂️
+  *  Clone the repository. 🌀
+      `$git clone https://github.com/karthxk07/flint.git`
+     
+  * Navigate to the project folder: 📁
+      `$cd flint`
+    
+  * Install dependencies: :dependabot:
+      `$npm install`
+    
+  *  Create a .env file and configure your environment variables (e.g., database connection, API keys): 🎄
+      ```
+      PORT=3000
+      FIREBASE_KEY=*your firebase app api key*
+      ```
+  *  Start the development server: 🚙
+        `$npm start`
+     
+  *  Open your web browser and go to http://localhost:3000 to access Flint. 🌐
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Contributions 🤝
+  We welcome contributions from the open-source community! If you'd like to contribute to Flint,  just create a pull request. 😊
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contact ☎️
+  For any enquiries contact @ **karthikkalyanam07@gmail.com** 📧
+    
