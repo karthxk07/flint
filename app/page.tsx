@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const { authState, setAuthState } = useAuthContext() as any;
 
-  const router = useRouter();
+  const router = useRouter() as any;
 
   return <>{authState == null ? <>{router.push("/login")}</> : <p>Home</p>}</>;
 }
