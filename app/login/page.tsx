@@ -25,11 +25,7 @@ export default function Login() {
             <div className="min-h-max w-[1px] mx-10 bg-gradient-to-b from-transparent via-stone-500 to-transparent"></div>
             <div className=" flex flex-col self-center">
               <p className="mb-5 text-4xl">Login</p>
-              <form
-                className="mx-3 flex-1 my-auto"
-                action="/api/login"
-                method="POST"
-              >
+              <form className="mx-3 flex-1 my-auto">
                 <div className="flex flex-col ">
                   <p className="text-sm">Username or Email</p>
                   <input
