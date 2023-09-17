@@ -11,15 +11,13 @@ export default function Home() {
   const { authState, setAuthState } = useAuthContext() as any;
   const router = useRouter();
 
-  if (authState.isAuthenticated == false) {
-    useEffect(() => {
-      router.push("/login");
-    }, []);
-  } else {
-    return (
-      <>
-        <HomeView />
-      </>
-    );
-  }
+  useEffect(() => {
+    authState.isAuthenticated === true && router.push("/login");
+  }, []);
+
+  return (
+    <>
+      <HomeView />
+    </>
+  );
 }
