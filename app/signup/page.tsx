@@ -1,12 +1,18 @@
 "use client";
 import React, { useRef, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useAuthContext } from "@/src/contexts/AuthContext";
+import { signupSubmit } from "@/src/helpers/signupSubmit";
 
 export default function Signup() {
   const containerRef: any = useRef();
+  const { authState, setAuthState } = useAuthContext() as any;
+  const router = useRouter();
 
   useEffect(() => {
     containerRef.current.classList.toggle("opacity-0");
+    authState.isAuthenticated !== false && router.push("/");
   }, []);
 
   return (
@@ -25,7 +31,16 @@ export default function Signup() {
             <div className="min-h-max w-[1px] mx-10 bg-gradient-to-b from-transparent via-stone-500 to-transparent"></div>
             <div>
               <p className="mb-5 text-4xl">Sign Up</p>
-              <form className="mx-3">
+              <form
+                className="mx-3"
+                onSubmit={(e) => {
+                  signupSubmit(e).then((data: any) => {
+                    setAuthState(data);
+                    console.log(data);
+                    data.isAuthenticated === true && router.push("/");
+                  });
+                }}
+              >
                 <div className="flex flex-col ">
                   <p className="text-sm">Email</p>
                   <input
