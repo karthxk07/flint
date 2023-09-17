@@ -1,6 +1,7 @@
 # flint. 🔥
 ### A real time chat app. 📥
 
+>Visit the site here - [flint.](https://karthxk07.github.io/flint/)
 
 ### Features. ⚙️
 *   Real time chatting with friends.👦
