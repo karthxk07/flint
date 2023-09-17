@@ -55,7 +55,7 @@ export default function Login() {
                 ></input>
               </form>
               <p className="text-xs text-right link ">
-                Don't have an account? <Link href="/signup">Sign Up</Link>
+                {`Don't have an account?`} <Link href="/signup">Sign Up</Link>
               </p>
             </div>
           </div>
