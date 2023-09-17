@@ -12,7 +12,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    authState.isAuthenticated === true && router.push("/login");
+    authState.isAuthenticated === false && router.push("/login");
   }, []);
 
   return (
