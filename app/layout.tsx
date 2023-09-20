@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-VarelaRound">
+      <body className="font-[SF Mono]">
         <AuthContextProvider>{children}</AuthContextProvider>
       </body>
     </html>
