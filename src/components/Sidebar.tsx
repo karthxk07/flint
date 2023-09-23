@@ -14,7 +14,7 @@ export default function SideBar() {
               🏡&emsp;Home
             </li>
             <li className="py-2 rounded-xl text-lg px-5 w-3/4 mx-auto my-3 hover:bg-stone-700 cursor-pointer">
-              <Link href="/inobx">🗨&emsp;Messages</Link>
+              <Link href="/inbox">🗨&emsp;Messages</Link>
             </li>
             <li className="py-2 rounded-xl text-lg px-5 w-3/4 mx-auto my-3 hover:bg-stone-700 cursor-pointer">
               🤦&emsp;Account

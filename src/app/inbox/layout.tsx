@@ -1,5 +1,5 @@
-import CompactSideBar from "@/components/InboxPageView/CompactSidebar";
-import Contacts from "@/components/InboxPageView/Contacts";
+import CompactSideBar from "@/src/components/Inbox/CompactSidebar";
+import Contacts from "@/src/components/Inbox/Contacts";
 
 export default function InboxLayout({
   children,

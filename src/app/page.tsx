@@ -1,5 +1,5 @@
 "use client";
-import SideBar from "@/components/Sidebar";
+import SideBar from "@/src/components/Sidebar";
 import React, { useEffect } from "react";
 
 function HomeView() {
