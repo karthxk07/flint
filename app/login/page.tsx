@@ -7,12 +7,10 @@ import { useRouter } from "next/navigation";
 
 export default function Login() {
   const containerRef: any = useRef();
-  const { authState, setAuthState } = useAuthContext() as any;
   const router = useRouter();
 
   useEffect(() => {
     containerRef.current.classList.toggle("opacity-0");
-    authState.isAuthenticated !== false && router.push("/");
   }, []);
 
   return (

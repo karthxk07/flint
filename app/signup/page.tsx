@@ -1,18 +1,13 @@
 "use client";
 import React, { useRef, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useAuthContext } from "@/src/contexts/AuthContext";
 import { signupSubmit } from "@/src/helpers/signupSubmit";
 
 export default function Signup() {
   const containerRef: any = useRef();
-  const { authState, setAuthState } = useAuthContext() as any;
-  const router = useRouter();
 
   useEffect(() => {
     containerRef.current.classList.toggle("opacity-0");
-    authState.isAuthenticated !== false && router.push("/");
   }, []);
 
   return (
