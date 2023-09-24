@@ -56,7 +56,9 @@ export default function Contacts() {
               ></img>
               <div className="flex-1 ml-5 my-auto">
                 <span>
-                  <p className="text-base">Username</p>
+                  <p className="text-base">
+                    <Link href="/inbox/username">dfas</Link>Username
+                  </p>
                   <p className="text-xs my-2">Recent text</p>
                 </span>
               </div>
