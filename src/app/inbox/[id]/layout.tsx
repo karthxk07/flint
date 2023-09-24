@@ -1,4 +1,8 @@
-export default function ({ children }: { children: React.ReactNode }) {
+export default function UserInboxLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <>
       <div className="relative w-full h-screen rounded-r-2xl overflow-clip  flex flex-col">

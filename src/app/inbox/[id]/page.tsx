@@ -1,3 +1,3 @@
-export default function Chat() {
+export default function UserInbox() {
   return <>asdkfjsahdk</>;
 }
