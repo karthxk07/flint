@@ -1,7 +1,7 @@
 # flint. 🔥
 ### A real time chat app. 📥
 
->Visit the site here - [flint.](https://karthxk07.github.io/flint/)
+>Visit the site here - [flint.](https://flint-karthxk07s-projects.vercel.app/)
 
 ### Features. ⚙️
 *   Real time chatting with friends.👦
