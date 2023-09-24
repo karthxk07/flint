@@ -16,21 +16,7 @@ export default function UserInboxLayout({
           <div className="flex-1"></div>
           <p className="text-lg cursor-pointer my-auto mx-3">ℹ️</p>
         </div>
-        <div className="flex-1 overflow-y-scroll m-2">
-          <ul>
-            <li className="justify-end flex m-1">
-              <span className="p-2 outline outline-1 outline-stone-600 rounded-3xl ">
-                Example text{" "}
-              </span>
-            </li>
-
-            <li className="justify-start flex m-1">
-              <span className="p-2 outline outline-1 outline-stone-600 rounded-3xl ">
-                Example text{" "}
-              </span>
-            </li>
-          </ul>
-        </div>
+        <div className="flex-1 overflow-y-scroll m-2 p-2">{children}</div>
         <div className=" rounded-3xl outline outline-1 outline-stone-600 m-3 overflow-clip">
           <form className="flex flex-row ">
             <input
