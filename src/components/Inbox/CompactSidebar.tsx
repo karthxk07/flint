@@ -10,21 +10,29 @@ export default function CompactSideBar() {
 
         <div className="">
           <ul>
-            <li className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
-              <Link href="/">🏡</Link>
-            </li>
-            <li className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
-              <Link href="/inbox">🗨</Link>
-            </li>
-            <li className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
-              <Link href="/account">🤦</Link>
-            </li>
+            <Link href="/">
+              <li className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
+                🏡
+              </li>
+            </Link>
+            <Link href="/inbox">
+              <li className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
+                🗨
+              </li>
+            </Link>
+            <Link href="/account">
+              <li className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
+                🤦
+              </li>
+            </Link>
           </ul>
         </div>
         <div></div>
-        <div className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
-          <Link href="/settings">⚙️</Link>
-        </div>
+        <Link href="/settings">
+          <div className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
+            ⚙️
+          </div>
+        </Link>
       </div>
     </>
   );

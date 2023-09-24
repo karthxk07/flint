@@ -8,7 +8,7 @@ export default function InboxLayout({
 }) {
   return (
     <>
-      <div className="flex flex-row ">
+      <div className="flex flex-row h-screen overflow-clip">
         <CompactSideBar />
         <Contacts />
         {children}

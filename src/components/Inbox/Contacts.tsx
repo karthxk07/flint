@@ -19,11 +19,11 @@ export default function Contacts() {
     <>
       <dialog
         ref={modalRef}
-        className=" relative  backdrop-blur-3xl backdrop:bg-black/50 bg-stone-950 rounded-2xl overflow-clip
+        className=" relative  backdrop-blur-3xl backdrop:bg-black/50 bg-stone-950 rounded-2xl 
          text-white focus:outline-none"
       >
         <p
-          className="absolute top-0 end-0 m-3 cursor-pointer "
+          className="absolute z-10 top-0 end-0 m-3 cursor-pointer "
           onClick={() => {
             modalRef.current?.close();
             setModalVisible(false);
@@ -33,7 +33,7 @@ export default function Contacts() {
         </p>
         <NewMessageModal />
       </dialog>
-      <div className=" h-screen  bg-stone-950  w-72 flex flex-col ">
+      <div className=" h-screen  bg-stone-950  w-2/6 flex flex-col ">
         <span className="flex">
           <p className="m-3 flex-1">Messages</p>
 

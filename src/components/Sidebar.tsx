@@ -13,9 +13,11 @@ export default function SideBar() {
             <li className="py-2 rounded-xl text-lg px-5 w-3/4 mx-auto my-3 hover:bg-stone-700 cursor-pointer">
               🏡&emsp;Home
             </li>
-            <li className="py-2 rounded-xl text-lg px-5 w-3/4 mx-auto my-3 hover:bg-stone-700 cursor-pointer">
-              <Link href="/inbox">🗨&emsp;Messages</Link>
-            </li>
+            <Link href="/inbox">
+              <li className="py-2 rounded-xl text-lg px-5 w-3/4 mx-auto my-3 hover:bg-stone-700 cursor-pointer">
+                🗨&emsp;Messages
+              </li>
+            </Link>
             <li className="py-2 rounded-xl text-lg px-5 w-3/4 mx-auto my-3 hover:bg-stone-700 cursor-pointer">
               🤦&emsp;Account
             </li>
