@@ -18,9 +18,11 @@ export default function SideBar() {
                 🗨&emsp;Messages
               </li>
             </Link>
-            <li className="py-2 rounded-xl text-lg px-5 w-3/4 mx-auto my-3 hover:bg-stone-700 cursor-pointer">
-              🤦&emsp;Account
-            </li>
+            <Link href="/inbox" as="/asdfs">
+              <li className="py-2 rounded-xl text-lg px-5 w-3/4 mx-auto my-3 hover:bg-stone-700 cursor-pointer">
+                🤦&emsp;Account
+              </li>
+            </Link>
           </ul>
         </div>
         <div></div>

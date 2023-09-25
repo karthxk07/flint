@@ -48,21 +48,21 @@ export default function Contacts() {
         </span>
         <div className="">
           <ul>
-            <li className="p-4 text-lg px-5 w-full hover:bg-stone-700 cursor-pointer flex">
-              <img
-                className=" w-16 h-16 rounded-full bg-pink-600"
-                alt="profilepicture"
-                src="/bg.png"
-              ></img>
-              <div className="flex-1 ml-5 my-auto">
-                <span>
-                  <p className="text-base">
-                    <Link href="/inbox/username">dfas</Link>Username
-                  </p>
-                  <p className="text-xs my-2">Recent text</p>
-                </span>
-              </div>
-            </li>
+            <Link href="/inbox/username">
+              <li className="p-4 text-lg px-5 w-full hover:bg-stone-700 cursor-pointer flex">
+                <img
+                  className=" w-16 h-16 rounded-full bg-pink-600"
+                  alt="profilepicture"
+                  src="/bg.png"
+                ></img>
+                <div className="flex-1 ml-5 my-auto">
+                  <span>
+                    <p className="text-base">Username</p>
+                    <p className="text-xs my-2">Recent text</p>
+                  </span>
+                </div>
+              </li>
+            </Link>
           </ul>
         </div>
       </div>
