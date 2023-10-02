@@ -1,6 +1,6 @@
 # flint. 🔥
 ### A real time chat app. 📥
-
+(Under development)
 >Visit the site here - [flint.](https://flint-karthxk07s-projects.vercel.app/)
 
 ### Features. ⚙️
