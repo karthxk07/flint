@@ -20,7 +20,7 @@ export default function CompactSideBar() {
                 🗨
               </li>
             </Link>
-            <Link href="/account">
+            <Link href="/kals">
               <li className="p-3 text-lg text-center rounded-lg m-1 hover:bg-stone-700 hover:scale-105 transition-all duration-100 ease-in cursor-pointer">
                 🤦
               </li>

@@ -1,5 +1,6 @@
 import CompactSideBar from "@/src/components/Inbox/CompactSidebar";
 import Contacts from "@/src/components/Inbox/Contacts";
+import SideBar from "@/src/components/Sidebar";
 
 export default function InboxLayout({
   children,
@@ -9,7 +10,7 @@ export default function InboxLayout({
   return (
     <>
       <div className="flex flex-row h-screen overflow-clip">
-        <CompactSideBar />
+        <SideBar />
 
         {children}
       </div>

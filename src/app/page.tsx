@@ -1,22 +1,13 @@
 "use client";
 import SideBar from "@/src/components/Sidebar";
-import React, { useEffect } from "react";
 
-function HomeView() {
+export default function Home() {
   return (
     <>
       <div className="flex flex-row">
         <SideBar />
         <div className=" ml-auto"></div>
       </div>
-    </>
-  );
-}
-
-export default function Home() {
-  return (
-    <>
-      <HomeView />
     </>
   );
 }
