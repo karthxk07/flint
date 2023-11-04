@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useEffect } from "react";
 import Link from "next/link";
+import { loginSubmit } from "@/src/helpers/loginSubmit";
 
 export default function Login() {
   const containerRef: any = useRef();
@@ -25,7 +26,7 @@ export default function Login() {
             <div className="min-h-max w-[1px] mx-10 bg-gradient-to-b from-transparent via-stone-500 to-transparent"></div>
             <div className=" flex flex-col self-center">
               <p className="mb-5 text-4xl">Login</p>
-              <form className="mx-3 flex-1 my-auto">
+              <form className="mx-3 flex-1 my-auto" onSubmit={loginSubmit}>
                 <div className="flex flex-col ">
                   <p className="text-sm">Username or Email</p>
                   <input
