@@ -43,4 +43,5 @@ function writeUserData(username:String,email:String,password:String) {
     email: email,
     password : password
   });
+  window.location.href = "/login";
 }
