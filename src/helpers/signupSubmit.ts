@@ -42,6 +42,6 @@ function writeUserData(username:String,email:String,password:String) {
     username: username,
     email: email,
     password : password
-  });
-  window.location.href = "/login";
+  }).then(()=>{window.location.href = "/login";});
+  
 }
