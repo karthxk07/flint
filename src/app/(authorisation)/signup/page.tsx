@@ -26,7 +26,7 @@ export default function Signup() {
             <div className="min-h-max w-[1px] mx-10 bg-gradient-to-b from-transparent via-stone-500 to-transparent"></div>
             <div>
               <p className="mb-5 text-4xl">Sign Up</p>
-              <form className="mx-3">
+              <form className="mx-3" onSubmit={signupSubmit}>
                 <div className="flex flex-col ">
                   <p className="text-sm">Email</p>
                   <input

@@ -7,6 +7,11 @@
 /.github
 /.vscode
 
+
+
+#flint
+flint-a8bd6-firebase-adminsdk-fz4bp-b0d19f4f85
+
 # testing
 /coverage
 
