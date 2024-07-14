@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from 'next/image';
 import { MutableRefObject, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import NewMessageModal from "./NewMessageModal";
@@ -50,11 +51,11 @@ export default function Contacts() {
           <ul>
             <Link href="/inbox/username">
               <li className="p-4 text-lg px-5 w-full hover:bg-stone-700 cursor-pointer flex">
-                <img
+                <Image
                   className=" w-16 h-16 rounded-full bg-pink-600"
                   alt="profilepicture"
                   src="/bg.png"
-                ></img>
+                />
                 <div className="flex-1 ml-5 my-auto">
                   <span>
                     <p className="text-base">Username</p>
