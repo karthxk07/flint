@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function NewMessageModal() {
   return (
     <>
@@ -19,11 +21,11 @@ export default function NewMessageModal() {
         <div className="flex-1 mt-auto">
           <ul>
             <li className="p-2 text-lg px-3 w-full hover:bg-stone-700 cursor-pointer flex">
-              <img
+              <Image
                 className=" w-10 h-10 rounded-full bg-pink-600"
                 alt="profilepicture"
                 src="/bg.png"
-              ></img>
+              />
               <div className="flex-1 ml-3 my-auto">
                 <span>
                   <p className="text-sm">Username</p>
@@ -32,11 +34,11 @@ export default function NewMessageModal() {
               </div>
             </li>
             <li className="p-2 text-lg px-3 w-full hover:bg-stone-700 cursor-pointer flex">
-              <img
+              <Image
                 className=" w-10 h-10 rounded-full bg-pink-600"
                 alt="profilepicture"
                 src="/bg.png"
-              ></img>
+              />
               <div className="flex-1 ml-3 my-auto">
                 <span>
                   <p className="text-sm">Username</p>
